@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdowns {
+  min-width: fit-content;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dropdowns select {
+  height: 35px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding-left: 0.75rem;
+}
+
+.dropdowns select:disabled {
+  filter: opacity(0.5);
+}
+
+.selection {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 100%;
+}
+
+.selection {
+  color: slategray;
+}
+
+.selection > p {
+  font-weight: bold;
+  color: #000;
+}
+
+.selection > p > span {
+  font-size: 1.5rem;
+}
